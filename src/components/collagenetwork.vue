@@ -21,7 +21,9 @@ export default {
     nodes() {
       return this.collage.cards().map((card) => ({
         id: card.id,
-        label: card.label
+        label: card.label,
+        shape: 'image',
+        image: require('@/assets/collages/' + card.frontthumbnail),
       }));
     },
     edges() {
