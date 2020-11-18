@@ -1,17 +1,16 @@
 <template>
   <div id="app" style="height:100vh">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <FdcCollageNetwork/>
+    <router-view />
+
   </div>
 </template>
 
 <script>
-import FdcCollageNetwork from '@/components/collagenetwork.vue';
 
 export default {
   name: 'App',
   components: {
-    FdcCollageNetwork
   },
   data: () => ({
   }),
@@ -26,6 +25,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 </style>

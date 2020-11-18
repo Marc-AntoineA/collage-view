@@ -31,9 +31,9 @@ export default {
       width: '100%',
       nodes: {
         shapeProperties: {
-          useBorderWithImage:true
+          useBorderWithImage: true
         }
-      }
+      },
     };
 
     // mount data
